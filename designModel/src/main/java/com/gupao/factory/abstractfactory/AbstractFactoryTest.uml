@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupao.factory.abstractfactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="315.5833333333333" y="162.0">com.gupao.factory.abstractfactory.NovelAbstractFactory</node>
+    <node x="39.5" y="162.0">com.gupao.factory.abstractfactory.ComicAbstractFactory</node>
+    <node x="186.25" y="0.0">com.gupao.factory.abstractfactory.Picture</node>
+    <node x="145.25" y="81.0">com.gupao.factory.abstractfactory.BookAbstractFactory</node>
+    <node x="0.0" y="81.0">com.gupao.factory.abstractfactory.ComicPicture</node>
+    <node x="334.25" y="81.0">com.gupao.factory.abstractfactory.NovelPicture</node>
+    <node x="149.26666666666665" y="243.0">com.gupao.factory.abstractfactory.AbstractFactoryTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupao.factory.abstractfactory.BookAbstractFactory" target="com.gupao.factory.abstractfactory.Picture">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.ComicAbstractFactory" target="com.gupao.factory.abstractfactory.ComicPicture">
+      <point x="-58.0" y="-15.5" />
+      <point x="68.5" y="137.0" />
+      <point x="61.5" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.NovelAbstractFactory" target="com.gupao.factory.abstractfactory.NovelPicture">
+      <point x="0.0" y="-15.5" />
+      <point x="401.5833333333333" y="137.0" />
+      <point x="394.75" y="137.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.ComicAbstractFactory" target="com.gupao.factory.abstractfactory.BookAbstractFactory">
+      <point x="58.0" y="-15.5" />
+      <point x="184.5" y="137.0" />
+      <point x="173.41666666666666" y="137.0" />
+      <point x="-56.33333333333334" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.NovelAbstractFactory" target="com.gupao.factory.abstractfactory.BookAbstractFactory">
+      <point x="-57.33333333333334" y="-15.5" />
+      <point x="344.25" y="137.0" />
+      <point x="286.08333333333337" y="137.0" />
+      <point x="56.33333333333337" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.ComicPicture" target="com.gupao.factory.abstractfactory.Picture">
+      <point x="0.0" y="-15.5" />
+      <point x="61.5" y="51.0" />
+      <point x="194.95" y="51.0" />
+      <point x="-34.80000000000001" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.NovelPicture" target="com.gupao.factory.abstractfactory.Picture">
+      <point x="0.0" y="-15.5" />
+      <point x="394.75" y="61.0" />
+      <point x="247.15" y="61.0" />
+      <point x="17.400000000000006" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.ComicAbstractFactory" target="com.gupao.factory.abstractfactory.Picture">
+      <point x="0.0" y="-15.5" />
+      <point x="126.5" y="137.0" />
+      <point x="133.5" y="137.0" />
+      <point x="133.5" y="61.0" />
+      <point x="212.35" y="61.0" />
+      <point x="-17.400000000000006" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.AbstractFactoryTest" target="com.gupao.factory.abstractfactory.ComicAbstractFactory">
+      <point x="-54.0" y="-15.5" />
+      <point x="176.26666666666665" y="218.0" />
+      <point x="126.5" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.AbstractFactoryTest" target="com.gupao.factory.abstractfactory.NovelAbstractFactory">
+      <point x="54.0" y="-15.5" />
+      <point x="284.26666666666665" y="218.0" />
+      <point x="401.5833333333333" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.NovelAbstractFactory" target="com.gupao.factory.abstractfactory.Picture">
+      <point x="57.33333333333334" y="-15.5" />
+      <point x="458.91666666666663" y="137.0" />
+      <point x="465.75" y="137.0" />
+      <point x="465.75" y="51.0" />
+      <point x="264.55" y="51.0" />
+      <point x="34.80000000000001" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.abstractfactory.AbstractFactoryTest" target="com.gupao.factory.abstractfactory.BookAbstractFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="183.0" y="172.5" />
+  <SelectedNodes>
+    <node>com.gupao.factory.abstractfactory.AbstractFactoryTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

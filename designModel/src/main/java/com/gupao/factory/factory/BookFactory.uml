@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gupao.factory.factory.BookFactory</OriginalElement>
+  <nodes>
+    <node x="245.0" y="81.0">com.gupao.factory.Novel</node>
+    <node x="203.33333333333334" y="162.0">com.gupao.factory.factory.NovelFactory</node>
+    <node x="125.0" y="0.0">com.gupao.factory.Book</node>
+    <node x="104.0" y="81.0">com.gupao.factory.factory.BookFactory</node>
+    <node x="0.0" y="162.0">com.gupao.factory.factory.ComicFactory</node>
+    <node x="0.0" y="81.0">com.gupao.factory.Comic</node>
+    <node x="107.48958333333334" y="243.0">com.gupao.factory.factory.FactoryTest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gupao.factory.Comic" target="com.gupao.factory.Book">
+      <point x="0.0" y="-15.5" />
+      <point x="42.0" y="56.0" />
+      <point x="138.16666666666666" y="56.0" />
+      <point x="-26.333333333333343" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.NovelFactory" target="com.gupao.factory.Novel">
+      <point x="41.33333333333334" y="-15.5" />
+      <point x="20.5" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.FactoryTest" target="com.gupao.factory.factory.BookFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.ComicFactory" target="com.gupao.factory.Comic">
+      <point x="-42.0" y="-15.5" />
+      <point x="-21.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.BookFactory" target="com.gupao.factory.Book">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.NovelFactory" target="com.gupao.factory.factory.BookFactory">
+      <point x="-41.33333333333334" y="-15.5" />
+      <point x="224.0" y="137.0" />
+      <point x="204.83333333333334" y="137.0" />
+      <point x="40.33333333333334" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.ComicFactory" target="com.gupao.factory.factory.BookFactory">
+      <point x="42.0" y="-15.5" />
+      <point x="105.0" y="137.0" />
+      <point x="124.16666666666666" y="137.0" />
+      <point x="-40.33333333333334" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.FactoryTest" target="com.gupao.factory.factory.ComicFactory">
+      <point x="-38.0" y="-15.5" />
+      <point x="126.48958333333334" y="218.0" />
+      <point x="63.0" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.factory.FactoryTest" target="com.gupao.factory.factory.NovelFactory">
+      <point x="38.0" y="-15.5" />
+      <point x="202.48958333333334" y="218.0" />
+      <point x="265.33333333333337" y="218.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.gupao.factory.Novel" target="com.gupao.factory.Book">
+      <point x="0.0" y="-15.5" />
+      <point x="286.0" y="56.0" />
+      <point x="190.83333333333334" y="56.0" />
+      <point x="26.333333333333343" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="164.0" y="137.0" />
+  <SelectedNodes>
+    <node>com.gupao.factory.factory.BookFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
