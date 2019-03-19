@@ -1,0 +1,53 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   EnumSingleton.java
+
+package com.gupao.singleton.EnumSingleton;
+
+
+public final class EnumSingleton extends Enum
+{
+
+    public static EnumSingleton[] values()
+    {
+        return (EnumSingleton[])$VALUES.clone();
+    }
+
+    public static EnumSingleton valueOf(String name)
+    {
+        return (EnumSingleton)Enum.valueOf(com/gupao/singleton/EnumSingleton/EnumSingleton, name);
+    }
+
+    private EnumSingleton(String s, int i)
+    {
+        super(s, i);
+    }
+
+    public Object getObj()
+    {
+        return obj;
+    }
+
+    public void setObj(Object obj)
+    {
+        this.obj = obj;
+    }
+
+    public static EnumSingleton getInstance()
+    {
+        return INSTANCE;
+    }
+
+    public static final EnumSingleton INSTANCE;
+    private Object obj;
+    private static final EnumSingleton $VALUES[];
+
+    static 
+    {
+        INSTANCE = new EnumSingleton("INSTANCE", 0);
+        $VALUES = (new EnumSingleton[] {
+            INSTANCE
+        });
+    }
+}
