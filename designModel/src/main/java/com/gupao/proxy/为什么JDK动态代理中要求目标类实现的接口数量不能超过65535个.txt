@@ -1,0 +1,14 @@
+因为内存存储中是采用8给个字节组成的，也就是2^16-1的正整数
+JDKProxy的newProxyInstance方法getProxyClass0是采用
+弱缓存(WeakCache(ClassLoader loader,Class<?>... interfaces))
+来缓存和返回Object apply(ClassLoader classLoader, Class<?>[] interfaces)
+Key封装对象的，
+KeyX(Class<?>[] interfaces) {
+    hash = Arrays.hashCode(interfaces);
+    refs = (WeakReference<Class<?>>[])new WeakReference<?>[interfaces.length];
+    for (int i = 0; i < interfaces.length; i++) {
+        refs[i] = new WeakReference<>(interfaces[i]);
+    }
+}
+接口实际是封装在数组里进行缓存的，而正整数最大值则是2^16-1
+即65535，so不能大于65535个
