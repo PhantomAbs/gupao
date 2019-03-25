@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author Spencer Zhang
  * @ClassName JDKProxy
- * @Description JDK动态代理,代理的类需继承接口
+ * @Description JDK动态代理,代理的类需继承接口，用于控制访问
  * @Date 2019/03/22
  */
 public class JDKProxy implements InvocationHandler {
