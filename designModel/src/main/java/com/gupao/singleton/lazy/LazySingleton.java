@@ -9,7 +9,7 @@ package com.gupao.singleton.lazy;
  * 内部类的执行逻辑: 加载LazySingleton类，此时内部类未加载
  *                第一次调用getInstance静态方法时，加载内部类，
  *                实例化LazySingleton
- * @Date 2019/03/12
+ * @Date 2019/03/16
  */
 public class LazySingleton {
 
@@ -23,7 +23,7 @@ public class LazySingleton {
     public static final LazySingleton getInstance() {
         //双检查锁
         if (null == INSTANCE) {
-            synchronized (INSTANCE) {
+            synchronized (LazySingleton.class) {
                 if (null == INSTANCE)
                     INSTANCE = new LazySingleton();
             }
